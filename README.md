@@ -1,14 +1,12 @@
 # retry-queue-worker
 
-> A complete, tested utility for canonical hashing and digesting of JSON values.
+> Durable retry queue worker with exponential backoff, jitter, a max-attempts cap, and dead-letter routing.
 
-A complete, tested building block for the Retsumdk ecosystem. Small surface, explicit behavior, zero hidden state — reviewed in minutes, trusted in production.
+### What it is
 
-## Features
+Durable retry queue worker with exponential backoff + dead-letter routing.
 
-- Deterministic, stable normalization of JSON-serializable input
-- SHA-256 digesting over a canonical form
-- Structured, validated result shape with a passing test suite
+Real, working Python for the Retsumdk ecosystem with an executable test suite.
 
 ## Getting started
 
